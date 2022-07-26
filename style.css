@@ -4,9 +4,20 @@ html {
 
 body {
   color: grey;
+  height: 100vh;
 }
 
-h1 {
+h1,
+p {
   border: 2px dashed red;
   padding: 10px;
+  /* max-width: 90%; */
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
 }
