@@ -4,9 +4,15 @@
 //   console.log(`added event listener`);
 // });
 
-let click = document.getElementsByClassName("click");
+// let click = document.getElementsByClassName("click");
 
-click.addEventListener(`click`, () => {
-  alert(`click`);
-  
-});
+// click.addEventListener(`click`, () => {
+//   alert(`click`);
+
+// });
+
+function add() {
+  return 10 + 100;
+}
+
+console.log(add());
