@@ -4,21 +4,32 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+  grid-template-columns: 200px 250px;
   grid-auto-rows: minmax(150px, auto);
   text-align: center;
+  grid-gap: 1em;
+  align-content: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 .grid-item-1 {
+  grid-column: span 4;
 }
 .grid-item-2 {
+  grid-column: span 1;
 }
 
 .grid-item-3 {
+  grid-column: span 3;
 }
 .grid-item-4 {
+  grid-column: span 3;
 }
 .grid-item-5 {
+  /* grid-column: 1/5; */
 }
 
 .grid-item {
