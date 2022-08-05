@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .flex {
+        text-align: center;
+        display: flex;
+        gap: 4rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .flex-item {
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        display: flex;
+        text-align: center;
+        background-color: wheat;
+      }
+      .one {
+        flex-grow: 1;
+        text-align: center;
+      }
+      .two {
+        flex-grow: 1;
+      }
+      .three {
+        flex-grow: 1;
+      }
+      .four {
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Implementing grid.</h1>
+    <div class="flex">
+      <div class="flex-item one">1</div>
+      <div class="flex-item two">2</div>
+      <div class="flex-item three">3</div>
+      <div class="flex-item four">4</div>
+    </div>
+  </body>
+</html>
