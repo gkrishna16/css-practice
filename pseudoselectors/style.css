@@ -1,0 +1,8 @@
+.required::before {
+  content: "*";
+  color: red;
+}
+
+[data-tooltip]::after {
+  position: relative;
+}
