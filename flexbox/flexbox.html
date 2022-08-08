@@ -1,36 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>How to Zoom an Image on Mouse Hover using CSS?</title>
-
-    <style>
-      .geeks {
-        width: 300px;
-        height: 300px;
-        overflow: hidden;
-        margin: 0 auto;
-      }
-
-      .geeks img {
-        width: 100%;
-        transition: 0.5s all ease-in-out;
-      }
-
-      .geeks:hover img {
-        transform: scale(1.5);
-      }
-    </style>
+    <link rel="stylesheet" href="./flexbox.css" />
+    <title>Document</title>
   </head>
-
   <body>
-    <div class="geeks">
-      <img
-        src="https://media.geeksforgeeks.org/wp-content/uploads/20200403151026/adblur_gfg.png"
-        alt="Geeks Image"
-      />
-    </div>
+    <div class="flex-container">
+      <div class="item one">1</div>     
+       <div class="item two">2</div>
+      <div class="item three">3</div>
+      <div class="item four">4</div><div class="item five">5</div>     
+       <div class="item six">6</div>
+      <!-- <div class="item seven">7</div>
+      <div class="item eight">8</div> -->
   </body>
 </html>
