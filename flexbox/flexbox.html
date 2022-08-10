@@ -6,15 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./flexbox.css" />
     <title>Document</title>
+    <style>
+      div.columns {
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 1rem;
+      }
+
+      .columns > * {
+        border: 1px solid red;
+        background: lightgreen;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0;
+        padding: 1em;
+      }
+
+      section {
+        padding: 2em;
+      }
+    </style>
   </head>
   <body>
-    <div class="flex-container">
-      <div class="item one">1</div>     
-       <div class="item two">2</div>
-      <div class="item three">3</div>
-      <div class="item four">4</div><div class="item five">5</div>     
-       <div class="item six">6</div>
-      <!-- <div class="item seven">7</div>
-      <div class="item eight">8</div> -->
+    <section>
+      <h2>Some Cards</h2>
+      <div class="columns">
+        <article class="card">
+          <h4>Fun stuff</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+            voluptatem dignissimos aut quaerat odit quae deleniti iusto dolores
+            accusantium, assumenda fugiat porro maxime omnis eos nobis illum
+            quisquam ex alias?Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Officiis voluptatem dignissimos aut quaerat odit quae deleniti
+            iusto dolores accusantium, assumenda fugiat porro maxime omnis eos
+            nobis illum quisquam ex alias?
+          </p>
+        </article>
+        <article class="card">
+          <h4>Fun stuff</h4>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
+            blanditiis eius ratione adipisci iusto temporibus pariatur? At alias
+            atque repudiandae architecto quibusdam, iste voluptates libero
+            itaque totam hic dolorem soluta?
+          </p>
+        </article>
+        <article class="card">
+          <h4>Fun stuff</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit in ab
+            dolorum illo quae quos enim fugit ea? Modi cumque deleniti adipisci
+            ut. Corporis, vitae itaque velit dolorem veritatis voluptatem.
+          </p>
+        </article>
+      </div>
+    </section>
   </body>
 </html>

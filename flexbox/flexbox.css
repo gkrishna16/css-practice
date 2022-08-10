@@ -1,17 +1,11 @@
-.flex-container {
-  border: 1px solid black;
-  justify-content: space-around;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  align-content: center;
-  padding: 2em;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-div.item {
-  border: 1px solid blue;
-  width: 100px;
-  height: 100px;
-  display: grid;
-  place-items: center;
-}
+
+
+
